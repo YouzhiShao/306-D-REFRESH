@@ -1,3 +1,23 @@
-h1{
-    color:red
+h1 {
+  color: ghostwhite;
+  font-size: clamp(2.5rem, 10vw, 4rem);
+}
+p {
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+  max-width: 65ch;
+}
+.page-header {
+  height: 45vh;
+  background-color: rebeccapurple
+}
+.page-header p {
+  color: ghostwhite;
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+.card {
+  width: 16rem;
+  background-color: rosybrown;
 }
